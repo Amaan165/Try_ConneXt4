@@ -25,6 +25,8 @@ void init(){
       fprintf(f,"SaveSett 0\nDiff 0\n");
     }
 	}
+	
+	
   fclose(f);
   f =fopen("saveState.txt","a");
   fclose(f);
@@ -39,3 +41,4 @@ int main(int argc, char const *argv[]) {
   display_Start();
   return 0;
 }
+// I am updating here.
