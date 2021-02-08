@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 // Hoi- I did Stuff here.
+// Now I did stuff from Atom on 8th of FEB , using GitHub Desctop
 #include "display.c"
 #include "funcs.h"
 /*File Opening, if previously not presnet, then creation;*/
