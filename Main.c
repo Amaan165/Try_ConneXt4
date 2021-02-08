@@ -6,9 +6,12 @@
 // Importing the necessary Files in Main
 #include <stdio.h>
 #include <string.h>
-// Hoi- I did Stuff here.
+// Hoi- I did Stuff here
 
 // I again Did some Stuff...
+
+
+
 #include "display.c"
 #include "funcs.h"
 /*File Opening, if previously not presnet, then creation;*/
@@ -27,6 +30,8 @@ void init(){
       fprintf(f,"SaveSett 0\nDiff 0\n");
     }
 	}
+
+
   fclose(f);
   f =fopen("saveState.txt","a");
   fclose(f);
@@ -41,3 +46,4 @@ int main(int argc, char const *argv[]) {
   display_Start();
   return 0;
 }
+// I am updating here.
