@@ -26,8 +26,8 @@ void init(){
       fprintf(f,"SaveSett 0\nDiff 0\n");
     }
 	}
-	
-	
+
+
   fclose(f);
   f =fopen("saveState.txt","a");
   fclose(f);
