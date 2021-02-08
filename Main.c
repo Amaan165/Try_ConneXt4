@@ -1,3 +1,4 @@
+
 /*
   This file is the Starting point for the Project ConneXt4,
   Connecting other files to itself,
@@ -6,12 +7,10 @@
 // Importing the necessary Files in Main
 #include <stdio.h>
 #include <string.h>
-// Hoi- I did Stuff here
+// Hoi- I did Stuff here.
 
 // I again Did some Stuff...
-
-
-
+// Tring to check editing in Atom.
 #include "display.c"
 #include "funcs.h"
 /*File Opening, if previously not presnet, then creation;*/
@@ -30,8 +29,6 @@ void init(){
       fprintf(f,"SaveSett 0\nDiff 0\n");
     }
 	}
-
-
   fclose(f);
   f =fopen("saveState.txt","a");
   fclose(f);
