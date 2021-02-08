@@ -1,3 +1,4 @@
+
 /*
   This file is the Starting point for the Project ConneXt4,
   Connecting other files to itself,
@@ -7,6 +8,9 @@
 #include <stdio.h>
 #include <string.h>
 // Hoi- I did Stuff here.
+
+// I again Did some Stuff...
+// Tring to check editing in Atom.
 #include "display.c"
 #include "funcs.h"
 /*File Opening, if previously not presnet, then creation;*/
@@ -39,4 +43,8 @@ int main(int argc, char const *argv[]) {
   display_Start();
   return 0;
 }
+
 // Amaan Changed here!
+
+// I am updating here.
+
